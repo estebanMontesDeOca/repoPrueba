@@ -12,4 +12,10 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Homeworks.DataAccess\Homeworks.DataAccess.csproj" />
+    <ProjectReference Include="..\Homeworks.Domain\Homeworks.Domain.csproj" />
+    <ProjectReference Include="..\Homeworks.BusinessLogic\Homeworks.BusinessLogic.csproj" />
+  </ItemGroup>
+
 </Project>
